@@ -12,7 +12,6 @@ const api = {
       throw err;
     }
   },
-
   getBook: async (id) => {
     try {
       const res = await axios.get(`${BASE_URL}/${id}`);
